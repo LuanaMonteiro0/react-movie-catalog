@@ -1,8 +1,10 @@
 .header {
     display: block;
     text-align: center;
-    font-size: 30px;
-    margin: 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 20px 0;
 }
 
 .nav {
@@ -21,4 +23,10 @@
 
 .nav > li:hover {
     color: turquoise;
+}
+
+@media (max-width: 600px) {
+    .header {
+        font-size: 36px;
+    }
 }
