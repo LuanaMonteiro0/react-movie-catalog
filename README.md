@@ -1,16 +1,42 @@
-# React + Vite
+# Catálogo de Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação React para gerenciar um catálogo de filmes com operações de listagem, leitura, cadastro, alteração e exclusão.
 
-Currently, two official plugins are available:
+## Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- React Router DOM
+- Axios
+- MockAPI
 
-## React Compiler
+## Páginas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `/` - lista os filmes cadastrados
+- `/ler/:id` - exibe todos os dados de um filme
+- `/criar` - cadastra um novo filme
+- `/alterar` - busca um filme pelo ID e permite alterar seus dados
+- `/apagar` - busca um filme pelo ID e permite removê-lo
 
-## Expanding the ESLint configuration
+## API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Os dados são armazenados no MockAPI:
+
+```text
+https://6ade288b4e88f1bba4a4fc00.mockapi.io/filmes
+```
+
+Cada filme possui os campos `id`, `nome`, `genero` e `ano`.
+
+## Como executar
+
+```bash
+npm install
+npm run dev
+```
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
