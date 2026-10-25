@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const filmesApi = axios.create({
-    baseURL: 'https://6ade288b4e88f1bba4a4fc00.mockapi.io',
+    baseURL: 'https://6ade32804e88f1bba4a50502.mockapi.io',
 });
 
 export const listarFilmes = () => filmesApi.get('/filmes');

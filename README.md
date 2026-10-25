@@ -23,7 +23,7 @@ Aplicação React para gerenciar um catálogo de filmes com operações de lista
 Os dados são armazenados no MockAPI:
 
 ```text
-https://6ade288b4e88f1bba4a4fc00.mockapi.io/filmes
+https://6ade32804e88f1bba4a50502.mockapi.io/filmes
 ```
 
 Cada filme possui os campos `id`, `nome`, `genero` e `ano`.
