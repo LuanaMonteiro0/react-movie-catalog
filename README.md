@@ -2,6 +2,10 @@
 
 Aplicação React para gerenciar um catálogo de filmes com operações de listagem, leitura, cadastro, alteração e exclusão.
 
+## Autores
+
+Trabalho desenvolvido por Luana Giovana Monteiro e Luan Marqueti para a disciplina SCL PRW2 - Programação para Web 2.
+
 ## Tecnologias
 
 - React
